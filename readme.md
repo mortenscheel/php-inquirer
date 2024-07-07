@@ -1,3 +1,5 @@
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mortenscheel/php-inquirer.svg?style=flat-square)](https://packagist.org/packages/mortenscheel/php-inquirer)
+[![Total Downloads](https://img.shields.io/packagist/dt/mortenscheel/php-inquirer.svg?style=flat-square)](https://packagist.org/packages/mortenscheel/php-inquirer)
 # PHP Inquirer
 
 Beautiful interactive CLI prompts for PHP, based on the Rust [inquire](https://github.com/mikaelmello/inquire) crate.
