@@ -3,7 +3,7 @@
     "description": "Beautify command-line prompts",
     "autoload": {
         "psr-4": {
-            "Scheel\\PhpInquirer\\": "src/"
+            "Scheel\\Inquirer\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +12,21 @@
             "email": "morten@mortenscheel.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.1",
+        "laravel/pint": "^1.16",
+        "phpstan/phpstan": "^1.11",
+        "ergebnis/composer-normalize": "^2.43"
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
+    },
+    "scripts": {
+        "check": "phpstan analyse src --level 9"
+    }
 }
