@@ -11,8 +11,6 @@ class Date extends Prompt
     public function __construct()
     {
         $this->subCommand = 'date';
-        $this->minDate = '2022-01-01';
-        $this->maxDate = '9999-12-31';
     }
 
     public function minDate(string $date): self
