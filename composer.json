@@ -1,0 +1,16 @@
+{
+    "name": "mortenscheel/php-inquirer",
+    "description": "Beautify command-line prompts",
+    "autoload": {
+        "psr-4": {
+            "Scheel\\PhpInquirer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Morten Scheel",
+            "email": "morten@mortenscheel.com"
+        }
+    ],
+    "require": {}
+}
